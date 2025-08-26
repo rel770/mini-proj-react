@@ -10,7 +10,7 @@
 }
 
 .btn:active {
-  transform: translateY(10px);
+  transform: translateY(1px);
 }
 
 .btn:focus {
