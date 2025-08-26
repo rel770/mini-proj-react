@@ -1,8 +1,9 @@
 import Card from "./Card";
+import "./PeopleSection.css";
 
 const ProfileCards = () => {
   return (
-    <section style={{ padding: 20 }}>
+    <section className="people-section">
       <Card
         avatar={"/vite.svg"}
         name="Yehuda Peretz"
