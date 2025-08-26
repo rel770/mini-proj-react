@@ -1,3 +1,4 @@
+import "./Card.css";
 import Button from "./Button";
 
 const Card = ({
