@@ -1,3 +1,4 @@
+import "./Button.css";
 
 const Button = ({ person = "friend", children, className = "", ...props }) => {
   const role = String(person).toLowerCase();
