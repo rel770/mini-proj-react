@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(12, 12, 12, 0.06);
+  margin: 8px 0;
+  max-width: 520px;
+}
+
+.card__avatarWrap {
+  flex: 0 0 auto;
+}
+
+.card__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  object-fit: cover;
+  display: block;
+}
+
+.card__avatar--initials {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  color: #333;
+  font-weight: 600;
+}
+
+.card__body {
+  flex: 1 1 auto;
+}
+
+.card__name {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.card__desc {
+  color: gray;
+  font-size: 0.95rem;
+}
+
+.card__actions {
+  margin-left: 12px;
+}
