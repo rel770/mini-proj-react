@@ -1,3 +1,4 @@
+/* Card component styling */
 .card {
   display: flex;
   align-items: center;
@@ -8,7 +9,9 @@
   background: #fff;
   box-shadow: 0 6px 18px rgba(12, 12, 12, 0.06);
   margin: 8px 0;
-  max-width: 520px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .card__avatarWrap {
@@ -34,6 +37,7 @@
 
 .card__body {
   flex: 1 1 auto;
+  min-width: 0; /* Allows text to wrap properly */
 }
 
 .card__name {
@@ -45,6 +49,8 @@
 .card__desc {
   color: gray;
   font-size: 0.95rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .card__actions {
