@@ -1,0 +1,16 @@
+/* People section with responsive grid layout */
+.people-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Desktop layout - 2 cards per row */
+@media (min-width: 768px) {
+  .people-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
